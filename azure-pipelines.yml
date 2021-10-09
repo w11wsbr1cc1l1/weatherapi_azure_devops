@@ -22,7 +22,7 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: 'Cltt168 Docker Hub'
+        containerRegistry: 'Cltt168 Docker Hub Registry'
         repository: 'cltt168/weatherapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
